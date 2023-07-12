@@ -20,103 +20,196 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  gap:20px;
+  gap: 20px;
 }
 .banner-img {
   height: 600px;
   width: 500px;
 }
 
-.banner-title{
+.banner-title {
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.banner-content{
+.banner-content {
   margin-bottom: 20px;
 }
 
-button{
+button {
   display: inline-flex;
-padding: 10px 23px;
-border:none;
-color:white;
-border-radius: 8px;
-background: #E55473;
+  padding: 10px 23px;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  background: #e55473;
 }
 
 /* banner section end */
 
 /* follower start here */
-.flower{
-  display:flex;
-width: 1220px;
-height: 2867px;
-margin-left:130px;
-
+.flower {
+  display: flex;
+  width: 1220px;
+  height: 267px;
+  margin-left: 130px;
+margin-bottom:50px;
 }
-.flower-1{
- 
-  margin:50px 0;
-}
-
-  .flower-1 h3{
-   color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-  }
-
-.flower-1 p{
-  color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-}  
-
-.flower-2, .flower-3, .flower-4{
-width: 350px;
-height: 450px;
-flex-shrink: 0;
-margin-right:20px;
-border-radius: 200px 200px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
+.flower-1 {
+  margin: 50px 0;
 }
 
-.flower-3{
+.flower-1 h3 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.flower-1 p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.flower-2,
+.flower-3,
+.flower-4 {
+  width: 350px;
+  height: 450px;
+  flex-shrink: 0;
+  margin-right: 20px;
+  border-radius: 200px 200px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-bottom:40px;
+}
+
+.flower-3 {
   background: rgba(5, 151, 160, 0.15);
+
 }
 
-.flower-4{
+.flower-4 {
   background: rgba(71, 125, 17, 0.15);
 }
 
-.flower-2 img, .flower-3 img, .flower-4 img{
- width: 210px;
-height: 328px;
-margin-left:80px;
-margin-top:40px; 
+.flower-2 img,
+.flower-3 img,
+.flower-4 img {
+  width: 210px;
+  height: 328px;
+  margin-left: 80px;
+  margin-top: 40px;
 }
 
-
-.flower-2 p, 
-.flower-3 p, 
-.flower-4 p{
-color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+.flower-2 p,
+.flower-3 p,
+.flower-4 p {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
-
 
 /* follower start here */
+/* group start here */
+.container-2{
+  width: 1200px;
+  margin:0 auto;
+  justify-content: center;
+  padding:40px 0px;
+  align-items:center;
+  background: rgba(39, 39, 39, 0.05);
+gap:50px;
+margin-top: 300px;
+display: flex;
+}
+.group {
+ 
+}
+
+.group-area{
+  padding: 0 11%;
+  display:flex;
+  justify-content: center;
+  padding: 0 11%;
+  align-items: center;
+  
+
+}
+ 
+
+.group-1-pic{
+ height:40px;
+ width: 40px;
+
+}
+.group-1 {
+text-align: center;
+}
+
+
+
+/* group end here */
+/* rose area start */
+.rose-area{
+ background: rgba(229, 84, 115, 0.05);
+display: flex;
+align-items: center;
+justify-content: center;
+  height:400px;
+  margin-top:140px;
+}
+.rose-tex-span{
+  color:palevioletred;
+font-family: Lato;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+}
+.rose-text{
+  margin-bottom: 10px;
+}
+
+.rose-img{
+  width: 230px;
+  padding-left: 15px;
+}
+/* rose area end */
+/* social media start */
+.social-media-img{
+display: flex;
+gap:10px;
+margin-bottom: 120px;
+justify-content: center;
+align-items: center;
+}
+.social-area{
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.social-container{
+  padding-top: 50px;
+}
+.social-area{
+  justify-content: center;
+  margin-left: 100px;
+}
+.social-img{
+  width: 260px;
+}
+/* social media end */
